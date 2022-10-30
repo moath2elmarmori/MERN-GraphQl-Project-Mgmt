@@ -9,6 +9,11 @@
   --loading-color: rgb(77, 77, 77);
   --logo-color: #ba4bdf;
 }
+@media (max-width: 500px) {
+  :root {
+    font-size: 8px;
+  }
+}
 body {
   font-family: "Ubuntu", sans-serif;
 }
