@@ -118,6 +118,10 @@ table td {
 table .delete-user-cell {
   display: flex;
   justify-content: center;
+  border-color: transparent;
+}
+table tbody tr:not(:first-of-type) .delete-user-cell {
+  border-top-color: var(--table-border-color);
 }
 table .delete-user-cell .delete-user-button {
   border: none;
