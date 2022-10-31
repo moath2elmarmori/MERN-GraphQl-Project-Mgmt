@@ -9,9 +9,9 @@
   --loading-color: rgb(77, 77, 77);
   --logo-color: #ba4bdf;
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   :root {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 body {
@@ -21,10 +21,7 @@ a {
   color: black;
   text-decoration: none;
 }
-.content-container {
-  padding: 0 4rem;
-  margin: 2rem 0;
-}
+
 .icon {
   margin-right: 5px;
 }

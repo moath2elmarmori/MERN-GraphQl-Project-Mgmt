@@ -21,7 +21,7 @@ function App() {
       <ApolloProvider client={client}>
         <BrowserRouter>
           <Header />
-          <div className="content-container">
+          <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects/:id" element={<Project />} />
