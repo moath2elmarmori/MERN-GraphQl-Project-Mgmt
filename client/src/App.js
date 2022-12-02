@@ -8,10 +8,7 @@ import NotFound from "./pages/NotFound";
 import Project from "./pages/Project";
 
 const client = new ApolloClient({
-  // for development env
-  // uri: "http://localhost:5000/graphql",
-  // for production
-  uri: "https://mern-project-mgmt-app-moath.herokuapp.com/graphql",
+  uri: "https://project-mgmt-moath.onrender.com/graphql",
   cache: new InMemoryCache(),
 });
 
